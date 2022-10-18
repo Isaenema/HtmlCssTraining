@@ -1,65 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" />
+    <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
     <title>ZozorProject</title>
 </head>
+
 <body>
-    <div class="blocPage"> 
+    <div class="blocPage">
 
         <!-- Titre + nav barre -->
         <header>
-        <div class="titreHdeux">
-            <div class="titreLogo">
-                <img src="./images/zozor_logo.png" alt="logosite">
-                <h1>Zozor</h1>
+            <div class="titreHdeux">
+                <div class="titreLogo">
+                    <img src="./images/zozor_logo.png" alt="logosite">
+                    <h1>Zozor</h1>
+                </div>
+                <h2>Carnet de voyage</h2>
             </div>
-            <h2>Carnet de voyage</h2>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">ACCUEIL</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CV</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
+            <nav>
+                <ul>
+                    <li><a href="#">ACCUEIL</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- MA BELLE BANNIERE -->
-    <div class="bannerSection">
-        <div class="bannerSanfransisco">
-            <div class="bannerDescription">
-                Retour sur mes vacances aux Etats-Unis...
-                <button>
-                    voir l'article
-                    <img src="./images/flecheblanchedroite.png" alt="">
-                </button>
+        <!-- MA BELLE BANNIERE -->
+        <div class="bannerSection">
+            <div class="bannerSanfransisco">
+                <div class="bannerDescription">
+                    Retour sur mes vacances aux Etats-Unis...
+                    <button>
+                        voir l'article
+                        <img src="./images/flecheblanchedroite.png" alt="">
+                    </button>
+                </div>
             </div>
-        </div>
-        
-        <!-- Mon article de voyage -->
+
+            <!-- Mon article de voyage -->
             <section>
                 <article>
                     <div class="titreArticleLogo">
                         <img src="./images/ico_epingle.png" alt="">
                         <h2>JE SUIS UN GRAND VOYAGEUR</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore dignissimos corporis quisquam accusamus natus velit error reprehenderit incidunt sit culpa esse at sint placeat nulla hic molestias nisi enim quod tenetur, deserunt laborum maiores a. Nisi perferendis at atque repellendus, reprehenderit rem necessitatibus sequi itaque ipsa voluptatem eum a quia earum commodi reiciendis eaque deleniti culpa minus corrupti nostrum ad? Minus est temporibus nemo laudantium. Laboriosam eius alias veniam reiciendis, hic dolore saepe doloremque quaerat qui eaque magni obcaecati placeat, neque, repellat fugiat ipsam modi minus impedit! Nobis similique est a qui saepe! Fugit rem voluptate sit quia. Id?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore dignissimos corporis quisquam accusamus natus velit error reprehenderit incidunt sit culpa esse at sint placeat nulla hic molestias nisi enim quod tenetur, deserunt laborum maiores a. Nisi perferendis at atque repellendus, reprehenderit rem necessitatibus sequi itaque ipsa voluptatem eum a quia earum commodi reiciendis eaque deleniti culpa minus corrupti nostrum ad? Minus est temporibus nemo laudantium. Laboriosam eius alias veniam reiciendis, hic dolore saepe doloremque quaerat qui eaque magni obcaecati placeat, neque, repellat fugiat ipsam modi minus impedit! Nobis similique est a qui saepe! Fugit rem voluptate sit quia. Id?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore dignissimos corporis quisquam accusamus natus velit error reprehenderit incidunt sit culpa esse at sint placeat nulla hic molestias nisi enim quod tenetur, deserunt laborum maiores a. Nisi perferendis at atque repellendus, reprehenderit rem necessitatibus sequi itaque ipsa voluptatem eum a quia earum commodi reiciendis eaque deleniti culpa minus corrupti nostrum ad? Minus est temporibus nemo laudantium. Laboriosam eius alias veniam reiciendis, hic dolore saepe doloremque quaerat qui eaque magni obcaecati placeat, neque, repellat fugiat ipsam modi minus impedit! Nobis similique est a qui saepe! Fugit rem voluptate sit quia. Id?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore dignissimos corporis
+                        quisquam accusamus natus velit error reprehenderit incidunt sit culpa esse at sint placeat nulla
+                        hic molestias nisi enim quod tenetur, deserunt laborum maiores a. Nisi perferendis at atque
+                        repellendus, reprehenderit rem necessitatibus sequi itaque ipsa voluptatem eum a quia earum
+                        commodi reiciendis eaque deleniti culpa minus corrupti nostrum ad? Minus est temporibus nemo
+                        laudantium. Laboriosam eius alias veniam reiciendis, hic dolore saepe doloremque quaerat qui
+                        eaque magni obcaecati placeat, neque, repellat fugiat ipsam modi minus impedit! Nobis similique
+                        est a qui saepe! Fugit rem voluptate sit quia. Id?</p>
+                    <table>
+                        <tr>
+                            <th>Titre du film</th>
+                            <td>Massacre à la tronçonneuse</td>
+                            <td>Les bisounours font du ski</td>
+                            <td>Lucky Luke, seul contre tous</td>
+                        </tr>
+                        <tr>
+                            <th>Pour enfants ?</th>
+                            <td>Non, trop violent</td>
+                            <td>Oui, adapté</td>
+                            <td rowspan="2">Pour toute la famille !</td>
+                        </tr>
+                        <tr>
+                            <th>Pour adolescents ?</th>
+                            <td>Oui</td>
+                            <td>Pas assez violent...</td>
+                        </tr>
+                    </table>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore dignissimos corporis
+                        quisquam accusamus natus velit error reprehenderit incidunt sit culpa esse at sint placeat nulla
+                        hic molestias nisi enim quod tenetur, deserunt laborum maiores a. Nisi perferendis at atque
+                        repellendus, reprehenderit rem necessitatibus sequi itaque ipsa voluptatem eum a quia earum
+                        commodi reiciendis eaque deleniti culpa minus corrupti nostrum ad? Minus est temporibus nemo
+                        laudantium. Laboriosam eius alias veniam reiciendis, hic dolore saepe doloremque quaerat qui
+                        eaque magni obcaecati placeat, neque, repellat fugiat ipsam modi minus impedit! Nobis similique
+                        est a qui saepe! Fugit rem voluptate sit quia. Id?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore inventore dignissimos corporis
+                        quisquam accusamus natus velit error reprehenderit incidunt sit culpa esse at sint placeat nulla
+                        hic molestias nisi enim quod tenetur, deserunt laborum maiores a. Nisi perferendis at atque
+                        repellendus, reprehenderit rem necessitatibus sequi itaque ipsa voluptatem eum a quia earum
+                        commodi reiciendis eaque deleniti culpa minus corrupti nostrum ad? Minus est temporibus nemo
+                        laudantium. Laboriosam eius alias veniam reiciendis, hic dolore saepe doloremque quaerat qui
+                        eaque magni obcaecati placeat, neque, repellat fugiat ipsam modi minus impedit! Nobis similique
+                        est a qui saepe! Fugit rem voluptate sit quia. Id?</p>
                 </article>
-                
+
                 <!-- Aside avec plusieurs icones -->
                 <aside>
                     <h2>A PROPOS DE L'AUTEUR</h2>
                     <img src="./images/bulle.png" alt="" class="flecheBulle">
                     <img src="./images/zozor_classe.png" alt="" class="zozorPhoto">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quidem velit quas labore odit doloribus facilis accusamus recusandae vero perferendis.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ex odio excepturi minus quos dolorum facere accusamus unde officiis deserunt dignissimos est cupiditate delectus aut quisquam fugiat beatae, labore suscipit.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quidem velit quas labore odit
+                        doloribus facilis accusamus recusandae vero perferendis.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ex odio excepturi minus quos
+                        dolorum facere accusamus unde officiis deserunt dignissimos est cupiditate delectus aut quisquam
+                        fugiat beatae, labore suscipit.</p>
                     <div class="lamereaZozor">
                         <img src="./images/facebook.png" alt="Facebook" class="iconAside">
                         <img src="./images/twitter.png" alt="Twitter" class="iconAside">
@@ -70,7 +117,7 @@
                 </aside>
             </section>
         </div>
-        
+
         <!-- Footer -->
         <footer>
             <div class="tweetFooter">
@@ -94,17 +141,18 @@
                         <li><a href="#"> Kaiwaii</a></li>
                         <li><a href="#"> Perceval.eu</a></li>
                     </ul>
-                <ul>
-                    <li><a href="#"> Belette</a></li>
-                    <li><a href="#"> Le concombre masqué</a></li>
-                    <li><a href="#"> Ptit prince</a></li>
-                    <li><a href="#"> Mr Fan</a></li>
-                </ul>
+                    <ul>
+                        <li><a href="#"> Belette</a></li>
+                        <li><a href="#"> Le concombre masqué</a></li>
+                        <l i><a href="#"> Ptit prince</a></l>
+                        <li><a href="#"> Mr Fan</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        
-    </footer>
-</div>
-    
+
+        </footer>
+    </div>
+
 </body>
+
 </html>
